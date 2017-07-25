@@ -141,5 +141,5 @@ Here's a [link to my video result of straight lane with camera calibration](http
 
 Here's a [link to the result of pipeline failure on harder_challenge_video.mp4](https://youtu.be/kHzJzUg3wTE)
 
-5. The computation of the radius of curvatures have been updated in the resubmission. The radius is measured in the middle of the polynomial rather than the bottom of the image. The radius of curvatures are between 400-1500 meters for curves and values higher than 2500 m for when the road appears to be straight.
+5. The computation of the radius of curvatures have been updated in the resubmission. The radius is measured in the middle of the polynomial rather than at the bottom of the image. The radius of curvatures are between 400-1500 meters for curves and values higher than 2500 m for when the road appears to be straight.
 
