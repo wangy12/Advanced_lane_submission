@@ -127,7 +127,7 @@ Here's a [link to my video result](https://youtu.be/kRHsZspxECU)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  What could you do to make it more robust?
 
-1. One issue I faced in this project is the use of the class `Line()`, which keeps the characteristics of each line detection. One must be very clear about the inputs and outputs of each function and the method/logic of managing the tracks of lanes given previous detections and new detections. I referred to [Github repo](https://github.com/wonjunee/Advanced-Lane-Finding/blob/master/Advanced-Lane-Finding-Submission.ipynb) to manage the tracks of lanes.
+1. One issue I faced in this project is the use of the class `Line()`, which keeps the characteristics of each line detection. One must be very clear about the inputs and outputs of each function and the method/logic of managing the tracks of lanes given previous detections and new detections. I referred to [this Github repo](https://github.com/wonjunee/Advanced-Lane-Finding/blob/master/Advanced-Lane-Finding-Submission.ipynb) to manage the tracks of lanes.
 
 2. The source and destination points in the perspective transformation are to be selected and tuned to accurately project the measurement back down onto the road.
 
