@@ -112,14 +112,14 @@ The result of lane detection on a curve line test image is shown as follows:
 
 #### 1. Final video output.
 
-Here's a [link to my video result](https://youtu.be/d7Uw5XfQoF8)
+Here's a [link to my video result](https://youtu.be/w4u4ASxWB0Y)
 
 
 #### 2. Video output of straight lanes in Project 1.
 
-Here's a [link to my video result](https://youtu.be/tReACJ2qRM4)
+Here's a [link to my video result](https://youtu.be/d1rhZlGDz7Q)
 
-Here's a [link to my video result](https://youtu.be/VsJaWfiOTh4)
+Here's a [link to my video result](https://youtu.be/kRHsZspxECU)
 
 ---
 
@@ -135,9 +135,11 @@ Here's a [link to my video result](https://youtu.be/VsJaWfiOTh4)
 
 Here's a [link to my video result of straight lane without camera calibration](https://youtu.be/Bz-Lfpwkci8)
 
-Here's a [link to my video result of straight lane with camera calibration](https://youtu.be/VsJaWfiOTh4)
+Here's a [link to my video result of straight lane with camera calibration](https://youtu.be/d1rhZlGDz7Q)
 
 4. The current pipeline does not work on the `harder_challenge_video.mp4`. The robustness of the pipeline should be enhanced, which can deal with sharp turns (e.g., U-turn). The area of interest should be tuned, the source and destination points in the perspective transformation should also be tuned. These are future works.
 
 Here's a [link to the result of pipeline failure on harder_challenge_video.mp4](https://youtu.be/kHzJzUg3wTE)
+
+5. The computation of the radius of curvatures have been updated in the resubmission. The radius is measured in the middle of the polynomial rather than the bottom of the image. The radius of curvatures are between 400-1500 meters for curves and values higher than 2500 m for when the road appears to be straight.
 
