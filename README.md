@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image8]: ./test_results/res_straight1.png
 [image9]: ./test_results/res_curve3.png
 
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
+
 
 ---
 
